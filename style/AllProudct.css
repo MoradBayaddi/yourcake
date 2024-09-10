@@ -1,0 +1,47 @@
+:root {
+  /* --primary-color-red:#ff7380ff; */
+  --second-color-red:#f75872;
+  --white1:#ffffff;
+  --bg-color-white: #f2f6f8;
+  --bg-dark-color:#2b2d42;
+  --grayColor:#F7F7F7;
+  --background:rgba(244, 248, 255, 0.788);
+  /* --bg-dark-color1:rgba(43, 45, 66, 0.9); */
+  
+}
+.box {
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 8PX;
+}
+
+.box select {
+  background-color: var(--second-color-red);
+  color: white;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  
+  appearance: button;
+  outline: none;
+}
+h3{
+    
+  font-family: 'Send Flowers';
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    top: 10;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*style submut*/

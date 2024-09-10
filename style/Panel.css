@@ -1,0 +1,111 @@
+:root {
+    /* --primary-color-red:#ff7380ff; */
+    --second-color-red:#f75872;
+    --white1:#ffffff;
+    --bg-color-white: #f2f6f8;
+    --bg-dark-color:#2b2d42;
+    --grayColor:#F7F7F7;
+    --background:rgba(244, 248, 255, 0.788);
+    /* --bg-dark-color1:rgba(43, 45, 66, 0.9); */
+    
+  }
+/* header, navbar ,slider(carousel),offcanvas  */
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/*style SHopping Cart*/
+
+section{
+    
+    background-color: var(--background) !important;
+    
+    
+}
+.container{
+    background-color: var(--background) !important;
+}
+.container   .card{
+    box-shadow: 0 4px 8px 0 var(--bg-color-white);
+    margin: 8px;
+    /* width: 421px; */
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+
+
+
+/*style Carte Resume*/
+.col-md-4{
+    margin-top: 50px;
+}
+.card-header
+{
+    background-color: var(--second-color-red);
+    color: white;
+}
+.btn{
+    background-color: #f75872;
+    color: white;
+    border: 1px solid var(--second-color-red);
+}
+.btn:hover{
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/*Style counter*/
+ section .container .input-group{
+    width: 150px;
+    position: relative;
+    right:  15%;
+
+   
+    
+}
+.icon-shape {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-sm {
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+/*Style image emty Cart*/
+.d-flex h2{
+    margin-bottom: 194px;
+    position: relative;
+    bottom: 78px;
+    right: 80px;
+    font-weight: bold;
+}
+.d-flex #image img{
+  
+
+ width: 100px;
+ position: relative;
+
+ right: 500px;
+   
+    
+}
+.d-flex h5{
+    margin-bottom: 130px;
+    font-weight: bold;
+}
+#commande{
+    text-decoration: none;
+    color: #fff;
+
+}

@@ -1,0 +1,30 @@
+/* profile information page  */
+:root {
+    /* --primary-color-red:#ff7380ff; */
+    --second-color-red:#f75872;
+    --white1:#ffffff;
+    --bg-color-white: #f2f6f8;
+    --bg-dark-color:#2b2d42;
+    --grayColor:#F7F7F7;
+    --background:rgba(244, 248, 255, 0.788);
+    /* --bg-dark-color1:rgba(43, 45, 66, 0.9); */
+    
+  }
+.d2 .profil_info_container div div a{
+    border-radius: 25px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: white;
+    padding:5% ;
+    text-decoration: none;
+    background-color:var(--second-color-red);
+}
+.d2 .profil_info_container div div a:hover{
+    background-color: var(--second-color-red);
+}
+#profil_full #profil_container .row{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* ------------------------------------------------------------------------------------- */
+/* commnades details style */

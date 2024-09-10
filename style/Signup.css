@@ -1,0 +1,118 @@
+:root {
+    /* --primary-color-red:#ff7380ff; */
+    --second-color-red:#f75872;
+    --white1:#ffffff;
+    --bg-color-white: #f2f6f8;
+    --bg-dark-color:#2b2d42;
+    --grayColor:#F7F7F7;
+    /* --bg-dark-color1:rgba(43, 45, 66, 0.9); */
+    
+  }
+/* header, navbar ,slider(carousel),offcanvas  */
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+  
+
+
+#peuror
+{
+    background-color: rgba(21, 231, 21, 0.445);
+    color: #f2f6f8;
+    width: 300px;
+    height: auto;
+    text-align: center;
+   position: relative;
+   top:20px;
+    padding: 10px;
+    display: none;
+}
+
+.card1 {
+   
+    margin: 80px;
+    height: 1050px;
+    background-color: #fff;
+    
+    
+   
+}
+
+.card1 .card-body {
+
+  height: auto;
+ 
+  position: relative;
+  bottom: 30px;
+}
+.form-control{
+    border: 1px solid var(--bg-dark-color);
+}
+.form-control:focus{
+    outline: none !important;
+    border: 1px solid var(--second-color-red);
+    box-shadow: none;
+}
+.form-outline{
+    color: var(--bg-dark-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-center{
+    font-size: 30px;
+}
+/* #flexRadioDefault1:checked{
+    background-color: #f75872;
+    box-shadow: var(--second-color-red);
+    border: 1px solid var(--second-color-red);
+}
+#flexRadioDefault2:checked{
+    background-color: #f75872;
+    box-shadow: var(--second-color-red);
+    border: 1px solid var(--second-color-red);
+} */
+
+.mb-4{
+
+    margin-bottom: 1.5rem!important;
+    position: relative;
+    bottom: 30px;
+}
+.mb-5{
+    position: relative;
+    bottom: 80px;
+}
+input[type='radio']:checked{
+    background-color: #f75872;
+    box-shadow: var(--second-color-red);
+    border: 1px solid var(--second-color-red);
+
+}
+input[type='checkbox']:checked{
+    background-color: #f75872;
+    box-shadow: var(--second-color-red);
+    border: 1px solid var(--second-color-red);
+    
+
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    width: 30px;
+}
+.btn1{
+background: var(--second-color-red);
+border: 1px solid var(--second-color-red);
+position: relative;
+bottom: 120px;
+width: 300px;
+}
+.btn1:hover{
+    background-color: var(--second-color-red);
+    border: 1px solid  var(--second-color-red);
+}
+.d2 .text-center{
+    position: relative;
+    bottom: 0px;
+}
+/* Endddddddddddddddd--------- */

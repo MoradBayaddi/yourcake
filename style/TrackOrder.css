@@ -1,0 +1,40 @@
+:root {
+    /* --primary-color-red:#ff7380ff; */
+    --second-color-red:#f75872;
+    --white1:#ffffff;
+    --bg-color-white: #f2f6f8;
+    --bg-dark-color:#2b2d42;
+    --grayColor:#F7F7F7;
+    /* --bg-dark-color1:rgba(43, 45, 66, 0.9); */
+    
+  }
+/* header, navbar ,slider(carousel),offcanvas  */
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* mn hna ----------------------------- */
+
+
+/* track order */
+.trackorder_div{
+    border: none;
+    box-shadow: 1px 5px 10px gray;
+    border-radius: 25px;
+}
+.btn_order_track{
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+    /* padding-top: 1.01rem;
+    padding-bottom: 1.01rem; */
+    padding: 0.5rem;
+    width: 100%;
+    color: var(--bg-color-white);
+    background-color: var(--second-color-red);
+    border: solid var(--bg-dark-color) 1px;
+    border-radius: 5px;
+}
+.trackorder_div form  .tro_txt {
+    width: 100%;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+}
